@@ -19,7 +19,7 @@
 
     <firebase-auth
         id="auth"
-        app-name="pwa-workshop"
+        app-name=""
         provider="google"
         signed-in="{{signedIn}}"
         user="{{user}}">
@@ -40,14 +40,14 @@
 
     <firebase-document
         id="document"
-        app-name="pwa-workshop"
+        app-name=""
         path="[[editableNoteId]]"
         data="{{editableNote}}">
     </firebase-document>
 
     <firebase-query
         id="query"
-        app-name="pwa-workshop"
+        app-name=""
         path="/notes/[[user.uid]]"
         data="{{notes}}">
     </firebase-query>
