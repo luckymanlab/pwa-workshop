@@ -23,14 +23,12 @@ https://codelabs.developers.google.com/codelabs/polymer-firebase-pwa
   * `touch note-app.html`
      Copy content from this repo `public/note-app.html`
 11. Replace index.html content by content from this repo `public/index.html`
-12. Update firebase component by your applicaion config from firebase app
+12. Update firebase component by your application config from firebase app
     `<firebase-app ...></firebase-app>`
     and `name="..."` by YOUR_PROJECT_NAME
-13. Specify pu YOUR_PROJECT_NAME as `app-name="..."` for `firebase-auth` `firebase-document` and `firebase-query` components in note-app.html
+13. Set YOUR_PROJECT_NAME as `app-name="..."` for `firebase-auth` `firebase-document` and `firebase-query` components in note-app.html
     `<firebase-app ...></firebase-app>`
 
 14. `firebase serve`
 15. Enable authentication in firebase console
-16. Specify your project name in all components in `note-app.html`
-    `app-name="YOUR_PROJECT_NAME"`
 17. `firebase deploy`
