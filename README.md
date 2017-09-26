@@ -25,8 +25,11 @@ https://codelabs.developers.google.com/codelabs/polymer-firebase-pwa
 11. Replace index.html content by content from this repo `public/index.html`
 12. Update firebase component by your applicaion config from firebase app
 `  <firebase-app`
+
         `name=""`
+
         `api-key=""`
+        
         `auth-domain=""`
         `database-url=""`
         `project-id=""`
