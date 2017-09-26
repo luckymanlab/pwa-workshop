@@ -24,18 +24,7 @@ https://codelabs.developers.google.com/codelabs/polymer-firebase-pwa
      Copy content from this repo `public/note-app.html`
 11. Replace index.html content by content from this repo `public/index.html`
 12. Update firebase component by your applicaion config from firebase app
-`  <firebase-app`
-
-        `name=""`
-
-        `api-key=""`
-        
-        `auth-domain=""`
-        `database-url=""`
-        `project-id=""`
-        `storage-bucket=""`
-        `messaging-sender-id="">`
-   `</firebase-app>`
+    `<firebase-app ...></firebase-app>`
 
 13. `firebase serve`
 14. Enable authentication in firebase console
